@@ -1,4 +1,4 @@
-# AWS WEBB APP Terraform module
+# AWS WEB APP Terraform module
 
 Terraform module which creates a web app with load balancer and autoscaling group.
 **Important**: This module is not finished, but you can use for simple tests.
