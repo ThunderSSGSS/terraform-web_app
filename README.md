@@ -34,7 +34,7 @@ sudo apt update -y && sudo apt install nginx -y && sudo systemctl start nginx
 # "aws_vpc.example", "aws_subnet.public", "aws_subnet.private" and "aws_key_pair.key"
 
 module "nginx_example" {
-    source              = ...
+    source              = "github.com/ThunderSSGSS/terraform-web_app"
     app_name            = "nginx"
     key_name            = aws_key_pair.key.key_name
     instance_port       = 80
